@@ -10,4 +10,4 @@ function bisextile(annee){
 
 }
 
-console.log(bisextile(2025))
+console.log(bisextile(2024))
