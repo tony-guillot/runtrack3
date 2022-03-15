@@ -2,7 +2,6 @@ function jourtravaille(date){
 
     date = new Date(date)
 
-   
        
     month = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre",]
 
@@ -33,7 +32,7 @@ function jourtravaille(date){
             
             if(date.getTime() == joursferie[i].getTime()){
 
-                  days = days + 1
+                 days = days + 1 
               
             }     
 
@@ -47,27 +46,23 @@ function jourtravaille(date){
 
         }
 
-
         if(days == 1 ){
 
             console.log("non"+ " "+ "le" + " " + date.getDate() + " " + month[monthValue] + " " + date.getFullYear() + " " + "est un jour férié")
+
         }else{
 
             console.log("oui"+ " "+ "le" + " " + date.getDate() + " " + month[monthValue] + " " + date.getFullYear() + " " + "est un jour travaillé")
 
         }
 
-    
-
-    
-
-        
    
         
     }
     
 
 
-var newdate = new Date("2022/12/25 ")
 
-jourtravaille(newdate)
+
+jourtravaille("2022/12/25")
+
