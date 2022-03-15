@@ -1,6 +1,6 @@
 
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded" , () => {
 
 
     let article = document.getElementById('citation').textContent
@@ -9,12 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let btn = document.getElementById("button")
     
-    console.log(btn)
-    
-    
+
     
         
-    function citaton(){
+    function citation(){
 
         btn.addEventListener("click",  () =>{
 
@@ -24,5 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    citaton()
-});
+    citation()
+
+})
