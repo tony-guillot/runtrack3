@@ -1,43 +1,33 @@
 
 document.addEventListener("DOMContentLoaded" , (event) => {
         
-        // const json = 
-  
-        // fetch('file.json')
-        // .then((response) => response.json)
-        // .then((respon) => {
-
-
-
-               
-     
-        // .catch((error) => console.log(error))
-
-        // let name = JSON.stringify(file)
-
-        // console.log(file)
-        // console.log(name)
+        
 
       
-        const json = {"name":"Laplateforme", "adresse":"8 rue dhozier", "city":"marseille", "nb_staff": "11", "creation": "2019"}
+        let json = '{"name":"Laplateforme", "adresse":"8 rue dhozier", "city":"marseille", "nb_staff": "11", "creation": "2019"}'
 
-        console.log(json)
+        let obj = JSON.parse(json)
 
-        var key = 'name'
-
-
-
+        console.log(obj )
 
         
-        function JsonValueKey(json, key){
+
+
+
+       
+
+        
+        function JsonValueKey(json, key ){
 
                
-                console.log(json[key])
+                 console.log(obj[key])
+
+                 
                 
         }
 
 
-        JsonValueKey(json,key)
+        JsonValueKey(json, "city")
 })
 
 
