@@ -10,12 +10,8 @@
 </head>
 
 <body>
-
-  
-   
-
-    <button id="button">boutton </button>
-    
+    <button id="button">button</button>
+    <p id="expression"></p>
 </body>
 
 </html>
