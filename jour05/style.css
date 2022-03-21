@@ -1,0 +1,19 @@
+form{
+
+    text-align: center;
+
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    line-height:  100%;
+    width: 30%;
+}
+
+label, button{
+
+    line-height: 2rem;
+}
