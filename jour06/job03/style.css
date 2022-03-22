@@ -7,16 +7,7 @@ body{
 
 }
 
-.section{
 
-    background-color: #88c1d0 ;
-    width: 20%;
-    height: 200px;
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-
-}
 
 
 @media all and (min-width: 768px) and  (max-width: 1599px) {
@@ -44,7 +35,7 @@ body{
     
   
     body{
-
+        
     display: flex;
     flex-direction: column;
     } 

@@ -1,0 +1,27 @@
+.menu{
+
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    display: none;
+    margin-top: 80px;
+}
+
+
+@media all and (max-width: 1180px){
+   
+    .lien{
+
+        display: none;
+    }
+
+    .menu{
+
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        display: block;
+    }
+}
